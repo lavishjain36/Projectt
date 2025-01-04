@@ -3,9 +3,11 @@ package com.task1;
 public class Demo {
 
 	public static void main(String[] args) {
-		int num1=10;
-		int num2=20;
-		System.out.println(num1+num2);
+		char c= 'A';//unicode->65
+		int num=c+2;//implicit-
+		System.out.println(num);
 	}
 
 }
+
+		
